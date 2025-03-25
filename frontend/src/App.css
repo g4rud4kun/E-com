@@ -1,0 +1,136 @@
+.nav-ul li{
+  display:inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color:white;
+  padding:5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-ul{
+  padding:5px;
+  margin:0;
+  background-color: black;
+
+}
+.invalid-input{
+  color:red;
+  margin-top: -15px;
+  display:block;
+  margin-left: 20px;
+  font-size: small;
+}
+.nav-ul-right{
+  text-align: right;
+}
+.logo{
+  width:55px;
+  float:left;
+  border-radius :100%;
+  margin-top: 3px;
+  margin-left: 20px;
+
+}
+.footer{
+  background-color: black;
+  color:white;
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  width:100%;
+  top: auto;
+}
+.input-box{
+  display: block;
+  margin: 15px;
+  padding: 7px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 9px;
+
+}
+.register{
+  margin-left: 35%;
+}
+.register h2{
+  margin-left: 15%;
+}
+
+.addProduct{
+  margin-left: 35%;
+}
+.addProduct h2{
+  margin-left: 12%;
+}
+
+.login {
+  margin-left: 35%;
+}
+.login h2 {
+  margin-left: 16.6%;
+}
+.appButton{
+  padding: 8px;
+  width: 250px;
+  margin-left: 50px;
+  background-color: #61dafb;
+  border-radius: 9px;
+  border: 2px solid black;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul {
+  margin:0;
+}
+.ul-head li{
+  background-color: #61dafb;
+}
+
+.search-product-box{
+  width:400px;
+  margin:20px;
+  height:40px;
+  border: 3px solid black;
+  padding-left: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
